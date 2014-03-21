@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thegrid.iml" filepath="$PROJECT_DIR$/thegrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/powerplay.iml" filepath="$PROJECT_DIR$/powerplay.iml" />
     </modules>
   </component>
 </project>
