@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PowerPlay</string>
+
+    <!-- Main screen strings -->
+    <string name="welcome_message">Welcome world!</string>
+    <string name="play_button">Play</string>
+    <string name="settings_button">settings</string>
 </resources>
