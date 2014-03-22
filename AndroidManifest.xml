@@ -18,5 +18,6 @@
         <activity android:name=".SettingsActivity"/>
         <activity android:name=".StoryActivity"/>
         <activity android:name=".StoryActivity2"/>
+        <activity android:name=".StoryActivity3"/>
     </application>
 </manifest>
