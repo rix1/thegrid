@@ -3,6 +3,7 @@ package org.royrvik.PowerPlay;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -28,8 +29,17 @@ public class MainActivity extends Activity {
         playbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                playbutton.setBackgroundResource(R.drawable.btnnewgame);
                 Intent i = new Intent(MainActivity.this, PlayActivity.class);
                 startActivity(i);
+            }
+        });
+
+        playbutton.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                playbutton.setBackgroundResource(R.drawable.btnnewgamedown);
+                return false;
             }
         });
         //double test = ParseXML.getLatestValue();
