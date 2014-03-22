@@ -3,24 +3,21 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:background="@drawable/bgmainmenu"
               android:weightSum="1">
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginTop="60dp"
-            android:text="@string/welcome_message"
-            android:id="@+id/welcome_message" android:layout_gravity="center_horizontal"/>
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:text="@string/play_button"
-            android:id="@+id/playButton" android:layout_gravity="center_horizontal"/>
+            android:layout_width="172dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/btnnewgame"
+            android:id="@+id/playButton"
+            android:layout_gravity="center_horizontal"/>
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/settings_button"
-            android:id="@+id/settingsButton" android:layout_gravity="center_horizontal"/>
+            android:layout_width="132.3dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnsettings"
+            android:id="@+id/settingsButton"
+            android:layout_gravity="center_horizontal"/>
 </LinearLayout>
 
