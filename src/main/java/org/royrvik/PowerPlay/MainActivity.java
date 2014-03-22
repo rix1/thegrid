@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 playbutton.setBackgroundResource(R.drawable.btnnewgame);
-                Intent i = new Intent(MainActivity.this, PlayActivity.class);
+                Intent i = new Intent(MainActivity.this, StoryActivity.class);
                 startActivity(i);
             }
         });
