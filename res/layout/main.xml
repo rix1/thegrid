@@ -8,7 +8,7 @@
     <Button
             android:layout_width="172dp"
             android:layout_height="58dp"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="230dp"
             android:background="@drawable/btnnewgame"
             android:id="@+id/playButton"
             android:layout_gravity="center_horizontal"/>
