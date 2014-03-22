@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class StoryActivity2 extends Activity {
+public class EndSplashActivity extends Activity {
 
     private static int SPLASH_TIME_OUT = 10000;
 
@@ -18,12 +18,12 @@ public class StoryActivity2 extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.storyview2);
+        setContentView(R.layout.endsplash);
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(StoryActivity2.this, EndSplashActivity.class);
+                Intent i = new Intent(EndSplashActivity.this, EndActivity.class);
                 startActivity(i);
 
                 finish();

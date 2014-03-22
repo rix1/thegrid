@@ -19,5 +19,7 @@
         <activity android:name=".StoryActivity"/>
         <activity android:name=".StoryActivity2"/>
         <activity android:name=".StoryActivity3"/>
+        <activity android:name=".EndSplashActivity"/>
+        <activity android:name=".EndActivity"/>
     </application>
 </manifest>

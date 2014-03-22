@@ -8,8 +8,8 @@
               android:weightSum="1">
 
     <Button
-            android:layout_width="172dp"
-            android:layout_height="65dp"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
             android:layout_marginTop="350dp"
             android:background="@drawable/btnback"
             android:id="@+id/backbutton"

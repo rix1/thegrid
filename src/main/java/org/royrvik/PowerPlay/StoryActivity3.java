@@ -23,7 +23,7 @@ public class StoryActivity3 extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(StoryActivity3.this, PlayActivity.class);
+                Intent i = new Intent(StoryActivity3.this, EndSplashActivity.class);
                 startActivity(i);
 
                 finish();
