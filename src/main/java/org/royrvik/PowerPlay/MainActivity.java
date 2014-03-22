@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    private Button playbutton;
+    private Button playbutton, settingsButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,6 +42,27 @@ public class MainActivity extends Activity {
                 return false;
             }
         });
+
+        settingsButton = (Button) findViewById(R.id.settingsButton);
+
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                settingsButton.setBackgroundResource(R.drawable.btnsettings);
+                Intent i = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+        settingsButton.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                settingsButton.setBackgroundResource(R.drawable.btnsettingsdown);
+                return false;
+            }
+        });
+
         //double test = ParseXML.getLatestValue();
         //Log.d("APP", Double.toString(test));
     }
